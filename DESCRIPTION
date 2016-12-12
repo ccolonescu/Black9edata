@@ -1,0 +1,12 @@
+Package: BlackRdata
+Title: Business Statistics R Data
+Version: 0.0.0.9000
+Authors@R: "Constantin Colonescu <ccolonescu@gmail.com> [aut,cre]"
+Description: This package includes data for the textbook "Business Statistics"
+    by Ken Black, 9-th edition, Wiley.
+Depends:
+    R (>= 3.3.2)
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 5.0.1
