@@ -100,7 +100,6 @@ devtools::use_data(CaseCh2,CaseCh3, CaseCh9,
 b <-"C:/Users/colonescuc/Documents/Black Files/Data9e/Problems Data/"
 fileList<-list.files(b, recursive=TRUE)
 fileList <- paste0(b,fileList)
-fileList
 p10.13<-read_excel(fileList[1])
 p10.14<-read_excel(fileList[2])
 p10.16<-read_excel(fileList[3])
