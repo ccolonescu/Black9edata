@@ -6,13 +6,13 @@ The package works best with RStudio. To install the "Black9edata" package, type 
  library(devtools)
  install_git("https://github.com/ccolonescu/Black9edata")
 
-Now, the data should be ready to use. For instance, if you wish to use the dataset "RRSP":
+Now, the data should be ready to use. For instance, if you wish to use the dataset "Hospital":
 
- library(BlackRdata)   # loads the package in memory
- ?RRSP                 # shows dataset information
- data(RRSP)            # loads the dataset in memory
- summary(RRSP)         # calculates summary statistics
- head(RRSP)            # shows the head of the data set
+ library(Black9edata)  # loads the package in memory
+ ?Hospital             # shows dataset information
+ data(Hospital)        # loads the dataset in memory
+ summary(Hospital)     # calculates summary statistics
+ head(Hospital)        # shows the head of the data set
 
  IMPORTANT: Only the "Database" files have a description in this package; therefore, you will not see the other files ("Cases" and "Problems") on the documentation page in RStudio. However, all about 400 files are in this package.
   Here is a list of R names for the Case files: CaseCh2, CaseCh3, CaseCh9, CaseCh11Q1, CaseCh11Q2, CaseCh11Q3, CaseCh12Cost, CaseCh12Sales, CaseCh13Q1, CaseCh13Q2, CaseCh14Q1, CaseCh14Q2, CaseCh15Q1, CaseCh15Q2, CaseCh16Price, CaseCh16Sex, CaseCh17Q1, and CaseCh17Q2.
