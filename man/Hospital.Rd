@@ -24,7 +24,7 @@ This database contains observations for 11 variables on US hospitals.
     \item{\code{births}}{Number of births}
     \item{\code{totexp}}{Total expenditures}
     \item{\code{payroll}}{Payroll expenditures}
-    \item{\code{personell}}{a numeric vector}
+    \item{\code{personnel}}{a numeric vector}
   }
 }
 \examples{

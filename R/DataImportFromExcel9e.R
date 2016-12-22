@@ -18,7 +18,7 @@ Financial<- read_excel(paste0(datDir,"/Black8eDatasets.xlsx"), sheet="Financial"
 
 Hospital<- read_excel(paste0(datDir,"/Black8eDatasets.xlsx"), sheet="Hospital")
   names(Hospital)<-c("hosp","region","ctrl","service","beds","admiss",
-                   "census","visits","births","totexp","payroll","personell")
+                   "census","visits","births","totexp","payroll","personnel")
 Labor<- read_excel(paste0(datDir,"/Black8eDatasets.xlsx"), sheet="International Labor")
 Manufacturer<- read_excel(paste0(datDir,"/Black8eDatasets.xlsx"), sheet="Manufacturer")
   names(Manufacturer)<- c("SIC","emp","wkrs",	"vadded",	"costmat",
@@ -27,7 +27,6 @@ Stock<- read_excel(paste0(datDir,"/Black8eDatasets.xlsx"),
                    sheet="U.S. International Stock Market")
 names(Stock)=c("month","DJIA","NASDAQ","SP500","NIKKEI225","HANGSENG",	"FTSE100",
                "IPC")
-
 
 devtools::use_data(Energy,Gas12yr,Agri,Food,Financial,Hospital,Labor,
            Manufacturer,Stock,  overwrite=TRUE) #saves files in the "data" folder
