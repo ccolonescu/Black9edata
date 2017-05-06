@@ -1,7 +1,8 @@
 Package: Black9edata
 Title: Business Statistics R Data
 Version: 0.0.0.9000
-Authors@R: "Constantin Colonescu <ccolonescu@gmail.com> [aut,cre]"
+Authors@R: person("Constantin","Colonescu",
+  email="colonescuc@macewan.ca", role=c("aut","cre"))
 Description: This package includes data for the textbook "Business Statistics"
     by Ken Black, 9-th edition, Wiley.
 Depends:
@@ -9,4 +10,4 @@ Depends:
 License: GPL-3
 Encoding: UTF-8
 LazyData: true
-RoxygenNote: 5.0.1
+RoxygenNote: 6.0.1
