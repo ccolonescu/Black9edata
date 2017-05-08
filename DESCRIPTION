@@ -1,6 +1,7 @@
 Package: Black9edata
 Title: Business Statistics R Data
 Version: 0.0.0.9000
+Date: 2016-10-30
 Authors@R: person("Constantin","Colonescu",
   email="colonescuc@macewan.ca", role=c("aut","cre"))
 Description: This package includes data for the textbook "Business Statistics"
