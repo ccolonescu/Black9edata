@@ -1,4 +1,4 @@
-The "Black9edata"" package loads into R the data sets that accompany "Business Statistics" ninth Edition, by Ken Black (Wiley).
+The "Black9edata" package loads into R the data sets that accompany "Business Statistics" ninth Edition, by Ken Black (Wiley).
 
 The package works best with RStudio. To install the "Black9edata" package, type the following script lines in the Console window of RStudio:
 
